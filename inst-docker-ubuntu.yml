@@ -29,7 +29,7 @@
     - name: Install docker engine
       ansible.builtin.apt:
         name:
-          - docker-ce
+          - docker.io
           - docker-ce-cli
           - containerd.io
           - docker-buildx-plugin
